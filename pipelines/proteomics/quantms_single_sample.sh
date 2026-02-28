@@ -1,7 +1,9 @@
 #!/bin/bash
 # Скрипт для анализа одного образца с QuantMS (без расчета статистики)
-
 set -euo pipefail
+source ../../config/prot_config.sh
+
+RAW_FILE="${1:-}"
 
 if [[ -z "$RAW_FILE" ]]; then
     echo "Укажите входной файл (.raw или .mzML)"
@@ -80,3 +82,4 @@ echo "Quantifying proteins..."
     -top 3 -average
 
 echo "QuantMS processing for sample $SAMPLE finished."
+
