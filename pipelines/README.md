@@ -7,6 +7,7 @@
 ```bash
 source configs/genomic_paired_config.sh
 bash pipelines/paired_genomics/exome_pipeline.sh <TUMOR_SAMPLE> <NORMAL_SAMPLE>
+
 ##Single Genomics 
 
 Содержит скрипт onco_pipeline.sh для одиночных образцов 
@@ -15,6 +16,7 @@ bash pipelines/paired_genomics/exome_pipeline.sh <TUMOR_SAMPLE> <NORMAL_SAMPLE>
 
 source configs/onco_single_config.sh
 bash pipelines/single_genomics/onco_pipeline.sh <SAMPLE>
+
 ##RNA-seq
 
 Содержит скрипты для анализа RNA-секвенирования 
@@ -23,6 +25,7 @@ bash pipelines/single_genomics/onco_pipeline.sh <SAMPLE>
 
 source configs/rna_config.sh
 bash pipelines/rna/rna_pipeline.sh <SAMPLE>
+
 ##Proteomics
 
 Содержит скрипты анализа протеомных данных 
