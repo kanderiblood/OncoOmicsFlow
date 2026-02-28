@@ -24,5 +24,7 @@ bash onco_pipeline_tumor.sh SAMPLE_ID /path/to/R1.fastq.gz /path/to/R2.fastq.gz
 
 # Requirements
 -Linux environment with bash
+
 -Installed dependencies as listed in each pipeline
+
 -Access to reference genomes, GTF/GFF files, and database resources
