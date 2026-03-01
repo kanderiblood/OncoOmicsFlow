@@ -1,0 +1,7 @@
+# requirements.txt
+# Минимальные зависимости для OncoOmicsFlow
+pandas>=2.0.0          # для работы с данными
+# typing-extensions     # если используется TypedDict или старый Python
+# datetime встроенный, ничего не нужно
+# requests              # если парсинг API баз (OncoKB и т.д.)
+# jinja2                # если отчёты через шаблоны Jinja (опционально)
